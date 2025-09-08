@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+flask-smorest = "*"
+flask-cors = "*"
+dynaconf = "*"
+pyyaml = "*"
+requests = ">=2.31.0"
+beautifulsoup4 = ">=4.12.0"
+torch = ">=2.2.0"
+numpy = ">=1.26.0"
+pandas = ">=2.2.0"
+scikit-learn = ">=1.5.0"
+matplotlib = ">=3.8.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"

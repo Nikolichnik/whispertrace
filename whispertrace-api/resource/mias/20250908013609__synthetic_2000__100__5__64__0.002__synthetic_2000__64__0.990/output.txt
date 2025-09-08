@@ -1,0 +1,16 @@
+
+
+─────────────────────────────────────────────────────────────┬───────────┬─────────┬─────────────────────
+Content                                                      │ Is member │ Score   │ Normalized score [%]
+─────────────────────────────────────────────────────────────┼───────────┼─────────┼─────────────────────
+Mallory composes scenes in watercolor at night.              │ True      │ -0.795  │ 95.3
+Are you suggesting coconuts migrate?                         │ False     │ -13.761 │ 19.1
+Eve records stories with synths in the studio.               │ True      │ -1.818  │ 89.3
+Just a flesh wound.                                          │ False     │ -12.282 │ 27.8
+Alice writes essays in watercolor at dawn.                   │ True      │ -2.148  │ 87.4
+Nikola builds AI pipelines on GCP with privacy-first design. │ False     │ -10.095 │ 40.6
+Carol designs landscapes in charcoal on weekends.            │ True      │ -0.72   │ 95.8
+Well, she turned me into a newt!                             │ False     │ -14.036 │ 17.4
+Ni!                                                          │ False     │ -11.773 │ 30.7
+─────────────────────────────────────────────────────────────┴───────────┴─────────┴─────────────────────
+

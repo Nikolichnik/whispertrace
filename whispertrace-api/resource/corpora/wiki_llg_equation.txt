@@ -1,0 +1,987 @@
+Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
+It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
+[1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.
+The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession.
+In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials.
+It provides a practical way to model the time-domain behavior of magnetic elements.
+Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+[2] Landau–Lifshitz equation[edit] The terms of the Landau–Lifshitz–Gilbert equation: precession (red) and damping (blue).
+The trajectory of the magnetization (dotted spiral) is drawn under the simplifying assumption that the effective field Heff is constant.
+In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume).
+The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy.
+To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+{\displaystyle \gamma '={\frac {\gamma }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}\qquad {\text{and}}\qquad \lambda ={\frac {\gamma ^{2}\eta }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}.
+} In this form of the LL equation, the precessional term γ' depends on the damping term.
+This better represents the behavior of real ferromagnets when the damping is large.
+[4][5] Landau–Lifshitz–Gilbert–Slonczewski equation[edit] In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.
+the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.
+[6][7] References and footnotes[edit] ^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+Further reading[edit] Gilbert, T.
+"A Lagrangian formulation of the gyromagnetic equation of the magnetic field".
+Physical Review.
+100 (4): 1243.
+Bibcode:1955PhRv.
+1103/PhysRev.
+This is only an abstract; the full report is "Armor Research Foundation Project No.
+A059, Supplementary Report, May 1, 1956", but was never published.
+A description of the work is given in Gilbert, T.
+"A phenomenological theory of damping in ferromagnetic materials".
+IEEE Trans.
+40 (6): 3443–3449.
+Bibcode:2004ITM.
+S2CID 35628797.
+The original abstract reads: T.
+Gilbert, Armour Research Foundation of Illinois Institute of Technology.
+Doering, Z.
+Naturforsch.
+3a, 374 (1948)).
+Here G {\displaystyle {\mathcal {G}}} is the effective internal field, including the magnetic field and contributions from exchange, anisotropy, and magnetoelastic effects.
+Using the variational principle, the equations of motion can be recast into a Lagrangian form.
+This makes possible a consistent derivation of the equations of motion of the magnetization field and other fields to which it may be coupled (e.
+, the displacement field of the lattice and the electromagnetic field).
+It also permits the introduction of viscous damping effects in a consistent manner using the Rayleigh dissipation function.
+It is shown that viscous damping of the magnetization fields leads to an equation of motion which reduces to the Landau-Lifshitz equation only when the damping is small.
+It is also shown that this Lagrangian formalism permits the introduction of damping due to disaccomodation in a consistent and very general way.
+; Lifshitz, E.
+"Theory of the dispersion of magnetic permeability in ferromagnetic bodies".
+Sowjetunion.
+Skrotskiĭ, G V (1984).
+"The Landau–Lifshitz equation revisited".
+27 (12): 977–979.
+Bibcode:1984SvPhU.
+1070/PU1984v027n12ABEH004101.
+Guo, Boling; Ding, Shijin (2008).
+Landau–Lifshitz Equations.
+Frontiers of Research With the Chinese Academy of Sciences.
+World Scientific Publishing Company.
+ISBN 978-981-277-875-8.
+Cimrak, Ivan (2007).
+"A Survey on the Numerics and Computations for the Landau–Lifshitz Equation of Micromagnetism" (PDF).
+Archives of Computational Methods in Engineering.
+15 (3): 1–37.
+1007/BF03024947.
+S2CID 195272703.
+Archived from the original (PDF) on 2015-07-05.
+Retrieved 2012-05-30.
+M, Lakshmanan (2010).
+"The fascinating world of the Landau–Lifshitz–Gilbert equation: an overview".
+369 (1939): 1280–1300.
+arXiv:1101.
+Bibcode:2011RSPTA.
+PMID 21320917.
+S2CID 23275414.
+External links[edit] Magnetization dynamics applet Retrieved from "https://en.
+org/w/index.
+Text is available under the Creative Commons Attribution-ShareAlike 4.
+0 License; additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy.
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+, a non-profit organization.
+Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
+It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
+[1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.
+The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession.
+In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials.
+It provides a practical way to model the time-domain behavior of magnetic elements.
+Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+[2] Landau–Lifshitz equation[edit] The terms of the Landau–Lifshitz–Gilbert equation: precession (red) and damping (blue).
+The trajectory of the magnetization (dotted spiral) is drawn under the simplifying assumption that the effective field Heff is constant.
+In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume).
+The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy.
+To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+{\displaystyle \gamma '={\frac {\gamma }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}\qquad {\text{and}}\qquad \lambda ={\frac {\gamma ^{2}\eta }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}.
+} In this form of the LL equation, the precessional term γ' depends on the damping term.
+This better represents the behavior of real ferromagnets when the damping is large.
+[4][5] Landau–Lifshitz–Gilbert–Slonczewski equation[edit] In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.
+the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.
+[6][7] References and footnotes[edit] ^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+Further reading[edit] Gilbert, T.
+"A Lagrangian formulation of the gyromagnetic equation of the magnetic field".
+Physical Review.
+100 (4): 1243.
+Bibcode:1955PhRv.
+1103/PhysRev.
+This is only an abstract; the full report is "Armor Research Foundation Project No.
+A059, Supplementary Report, May 1, 1956", but was never published.
+A description of the work is given in Gilbert, T.
+"A phenomenological theory of damping in ferromagnetic materials".
+IEEE Trans.
+40 (6): 3443–3449.
+Bibcode:2004ITM.
+S2CID 35628797.
+The original abstract reads: T.
+Gilbert, Armour Research Foundation of Illinois Institute of Technology.
+Doering, Z.
+Naturforsch.
+3a, 374 (1948)).
+Here G {\displaystyle {\mathcal {G}}} is the effective internal field, including the magnetic field and contributions from exchange, anisotropy, and magnetoelastic effects.
+Using the variational principle, the equations of motion can be recast into a Lagrangian form.
+This makes possible a consistent derivation of the equations of motion of the magnetization field and other fields to which it may be coupled (e.
+, the displacement field of the lattice and the electromagnetic field).
+It also permits the introduction of viscous damping effects in a consistent manner using the Rayleigh dissipation function.
+It is shown that viscous damping of the magnetization fields leads to an equation of motion which reduces to the Landau-Lifshitz equation only when the damping is small.
+It is also shown that this Lagrangian formalism permits the introduction of damping due to disaccomodation in a consistent and very general way.
+; Lifshitz, E.
+"Theory of the dispersion of magnetic permeability in ferromagnetic bodies".
+Sowjetunion.
+Skrotskiĭ, G V (1984).
+"The Landau–Lifshitz equation revisited".
+27 (12): 977–979.
+Bibcode:1984SvPhU.
+1070/PU1984v027n12ABEH004101.
+Guo, Boling; Ding, Shijin (2008).
+Landau–Lifshitz Equations.
+Frontiers of Research With the Chinese Academy of Sciences.
+World Scientific Publishing Company.
+ISBN 978-981-277-875-8.
+Cimrak, Ivan (2007).
+"A Survey on the Numerics and Computations for the Landau–Lifshitz Equation of Micromagnetism" (PDF).
+Archives of Computational Methods in Engineering.
+15 (3): 1–37.
+1007/BF03024947.
+S2CID 195272703.
+Archived from the original (PDF) on 2015-07-05.
+Retrieved 2012-05-30.
+M, Lakshmanan (2010).
+"The fascinating world of the Landau–Lifshitz–Gilbert equation: an overview".
+369 (1939): 1280–1300.
+arXiv:1101.
+Bibcode:2011RSPTA.
+PMID 21320917.
+S2CID 23275414.
+External links[edit] Magnetization dynamics applet Retrieved from "https://en.
+org/w/index.
+Text is available under the Creative Commons Attribution-ShareAlike 4.
+0 License; additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy.
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+, a non-profit organization.
+Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
+It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
+[1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.
+The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession.
+In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials.
+It provides a practical way to model the time-domain behavior of magnetic elements.
+Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+[2] Landau–Lifshitz equation[edit] The terms of the Landau–Lifshitz–Gilbert equation: precession (red) and damping (blue).
+The trajectory of the magnetization (dotted spiral) is drawn under the simplifying assumption that the effective field Heff is constant.
+In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume).
+The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy.
+To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+{\displaystyle \gamma '={\frac {\gamma }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}\qquad {\text{and}}\qquad \lambda ={\frac {\gamma ^{2}\eta }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}.
+} In this form of the LL equation, the precessional term γ' depends on the damping term.
+This better represents the behavior of real ferromagnets when the damping is large.
+[4][5] Landau–Lifshitz–Gilbert–Slonczewski equation[edit] In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.
+the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.
+[6][7] References and footnotes[edit] ^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+Further reading[edit] Gilbert, T.
+"A Lagrangian formulation of the gyromagnetic equation of the magnetic field".
+Physical Review.
+100 (4): 1243.
+Bibcode:1955PhRv.
+1103/PhysRev.
+This is only an abstract; the full report is "Armor Research Foundation Project No.
+A059, Supplementary Report, May 1, 1956", but was never published.
+A description of the work is given in Gilbert, T.
+"A phenomenological theory of damping in ferromagnetic materials".
+IEEE Trans.
+40 (6): 3443–3449.
+Bibcode:2004ITM.
+S2CID 35628797.
+The original abstract reads: T.
+Gilbert, Armour Research Foundation of Illinois Institute of Technology.
+Doering, Z.
+Naturforsch.
+3a, 374 (1948)).
+Here G {\displaystyle {\mathcal {G}}} is the effective internal field, including the magnetic field and contributions from exchange, anisotropy, and magnetoelastic effects.
+Using the variational principle, the equations of motion can be recast into a Lagrangian form.
+This makes possible a consistent derivation of the equations of motion of the magnetization field and other fields to which it may be coupled (e.
+, the displacement field of the lattice and the electromagnetic field).
+It also permits the introduction of viscous damping effects in a consistent manner using the Rayleigh dissipation function.
+It is shown that viscous damping of the magnetization fields leads to an equation of motion which reduces to the Landau-Lifshitz equation only when the damping is small.
+It is also shown that this Lagrangian formalism permits the introduction of damping due to disaccomodation in a consistent and very general way.
+; Lifshitz, E.
+"Theory of the dispersion of magnetic permeability in ferromagnetic bodies".
+Sowjetunion.
+Skrotskiĭ, G V (1984).
+"The Landau–Lifshitz equation revisited".
+27 (12): 977–979.
+Bibcode:1984SvPhU.
+1070/PU1984v027n12ABEH004101.
+Guo, Boling; Ding, Shijin (2008).
+Landau–Lifshitz Equations.
+Frontiers of Research With the Chinese Academy of Sciences.
+World Scientific Publishing Company.
+ISBN 978-981-277-875-8.
+Cimrak, Ivan (2007).
+"A Survey on the Numerics and Computations for the Landau–Lifshitz Equation of Micromagnetism" (PDF).
+Archives of Computational Methods in Engineering.
+15 (3): 1–37.
+1007/BF03024947.
+S2CID 195272703.
+Archived from the original (PDF) on 2015-07-05.
+Retrieved 2012-05-30.
+M, Lakshmanan (2010).
+"The fascinating world of the Landau–Lifshitz–Gilbert equation: an overview".
+369 (1939): 1280–1300.
+arXiv:1101.
+Bibcode:2011RSPTA.
+PMID 21320917.
+S2CID 23275414.
+External links[edit] Magnetization dynamics applet Retrieved from "https://en.
+org/w/index.
+Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
+It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
+[1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.
+The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession.
+In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials.
+It provides a practical way to model the time-domain behavior of magnetic elements.
+Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+[2] Landau–Lifshitz equation[edit] The terms of the Landau–Lifshitz–Gilbert equation: precession (red) and damping (blue).
+The trajectory of the magnetization (dotted spiral) is drawn under the simplifying assumption that the effective field Heff is constant.
+In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume).
+The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy.
+To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+{\displaystyle \gamma '={\frac {\gamma }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}\qquad {\text{and}}\qquad \lambda ={\frac {\gamma ^{2}\eta }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}.
+} In this form of the LL equation, the precessional term γ' depends on the damping term.
+This better represents the behavior of real ferromagnets when the damping is large.
+[4][5] Landau–Lifshitz–Gilbert–Slonczewski equation[edit] In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.
+the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.
+[6][7] References and footnotes[edit] ^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+Further reading[edit] Gilbert, T.
+"A Lagrangian formulation of the gyromagnetic equation of the magnetic field".
+Physical Review.
+100 (4): 1243.
+Bibcode:1955PhRv.
+1103/PhysRev.
+This is only an abstract; the full report is "Armor Research Foundation Project No.
+A059, Supplementary Report, May 1, 1956", but was never published.
+A description of the work is given in Gilbert, T.
+"A phenomenological theory of damping in ferromagnetic materials".
+IEEE Trans.
+40 (6): 3443–3449.
+Bibcode:2004ITM.
+S2CID 35628797.
+The original abstract reads: T.
+Gilbert, Armour Research Foundation of Illinois Institute of Technology.
+Doering, Z.
+Naturforsch.
+3a, 374 (1948)).
+Here G {\displaystyle {\mathcal {G}}} is the effective internal field, including the magnetic field and contributions from exchange, anisotropy, and magnetoelastic effects.
+Using the variational principle, the equations of motion can be recast into a Lagrangian form.
+This makes possible a consistent derivation of the equations of motion of the magnetization field and other fields to which it may be coupled (e.
+, the displacement field of the lattice and the electromagnetic field).
+It also permits the introduction of viscous damping effects in a consistent manner using the Rayleigh dissipation function.
+It is shown that viscous damping of the magnetization fields leads to an equation of motion which reduces to the Landau-Lifshitz equation only when the damping is small.
+It is also shown that this Lagrangian formalism permits the introduction of damping due to disaccomodation in a consistent and very general way.
+; Lifshitz, E.
+"Theory of the dispersion of magnetic permeability in ferromagnetic bodies".
+Sowjetunion.
+Skrotskiĭ, G V (1984).
+"The Landau–Lifshitz equation revisited".
+27 (12): 977–979.
+Bibcode:1984SvPhU.
+1070/PU1984v027n12ABEH004101.
+Guo, Boling; Ding, Shijin (2008).
+Landau–Lifshitz Equations.
+Frontiers of Research With the Chinese Academy of Sciences.
+World Scientific Publishing Company.
+ISBN 978-981-277-875-8.
+Cimrak, Ivan (2007).
+"A Survey on the Numerics and Computations for the Landau–Lifshitz Equation of Micromagnetism" (PDF).
+Archives of Computational Methods in Engineering.
+15 (3): 1–37.
+1007/BF03024947.
+S2CID 195272703.
+Archived from the original (PDF) on 2015-07-05.
+Retrieved 2012-05-30.
+M, Lakshmanan (2010).
+"The fascinating world of the Landau–Lifshitz–Gilbert equation: an overview".
+369 (1939): 1280–1300.
+arXiv:1101.
+Bibcode:2011RSPTA.
+PMID 21320917.
+S2CID 23275414.
+External links[edit] Magnetization dynamics applet Retrieved from "https://en.
+org/w/index.
+Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
+It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
+[1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.
+The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession.
+In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials.
+It provides a practical way to model the time-domain behavior of magnetic elements.
+Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+[2] Landau–Lifshitz equation[edit] The terms of the Landau–Lifshitz–Gilbert equation: precession (red) and damping (blue).
+The trajectory of the magnetization (dotted spiral) is drawn under the simplifying assumption that the effective field Heff is constant.
+In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume).
+The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy.
+To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+{\displaystyle \gamma '={\frac {\gamma }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}\qquad {\text{and}}\qquad \lambda ={\frac {\gamma ^{2}\eta }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}.
+} In this form of the LL equation, the precessional term γ' depends on the damping term.
+This better represents the behavior of real ferromagnets when the damping is large.
+[4][5] Landau–Lifshitz–Gilbert–Slonczewski equation[edit] In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.
+the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.
+[6][7] References and footnotes[edit] ^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+Further reading[edit] Gilbert, T.
+"A Lagrangian formulation of the gyromagnetic equation of the magnetic field".
+Physical Review.
+100 (4): 1243.
+Bibcode:1955PhRv.
+1103/PhysRev.
+This is only an abstract; the full report is "Armor Research Foundation Project No.
+A059, Supplementary Report, May 1, 1956", but was never published.
+A description of the work is given in Gilbert, T.
+"A phenomenological theory of damping in ferromagnetic materials".
+IEEE Trans.
+40 (6): 3443–3449.
+Bibcode:2004ITM.
+S2CID 35628797.
+The original abstract reads: T.
+Gilbert, Armour Research Foundation of Illinois Institute of Technology.
+Doering, Z.
+Naturforsch.
+3a, 374 (1948)).
+Here G {\displaystyle {\mathcal {G}}} is the effective internal field, including the magnetic field and contributions from exchange, anisotropy, and magnetoelastic effects.
+Using the variational principle, the equations of motion can be recast into a Lagrangian form.
+This makes possible a consistent derivation of the equations of motion of the magnetization field and other fields to which it may be coupled (e.
+, the displacement field of the lattice and the electromagnetic field).
+It also permits the introduction of viscous damping effects in a consistent manner using the Rayleigh dissipation function.
+It is shown that viscous damping of the magnetization fields leads to an equation of motion which reduces to the Landau-Lifshitz equation only when the damping is small.
+It is also shown that this Lagrangian formalism permits the introduction of damping due to disaccomodation in a consistent and very general way.
+; Lifshitz, E.
+"Theory of the dispersion of magnetic permeability in ferromagnetic bodies".
+Sowjetunion.
+Skrotskiĭ, G V (1984).
+"The Landau–Lifshitz equation revisited".
+27 (12): 977–979.
+Bibcode:1984SvPhU.
+1070/PU1984v027n12ABEH004101.
+Guo, Boling; Ding, Shijin (2008).
+Landau–Lifshitz Equations.
+Frontiers of Research With the Chinese Academy of Sciences.
+World Scientific Publishing Company.
+ISBN 978-981-277-875-8.
+Cimrak, Ivan (2007).
+"A Survey on the Numerics and Computations for the Landau–Lifshitz Equation of Micromagnetism" (PDF).
+Archives of Computational Methods in Engineering.
+15 (3): 1–37.
+1007/BF03024947.
+S2CID 195272703.
+Archived from the original (PDF) on 2015-07-05.
+Retrieved 2012-05-30.
+M, Lakshmanan (2010).
+"The fascinating world of the Landau–Lifshitz–Gilbert equation: an overview".
+369 (1939): 1280–1300.
+arXiv:1101.
+Bibcode:2011RSPTA.
+PMID 21320917.
+S2CID 23275414.
+External links[edit] Magnetization dynamics applet Retrieved from "https://en.
+org/w/index.
+title=Landau–Lifshitz–Gilbert_equation&oldid=1306740416" Description of the dynamics of magnetization in a solid In physics, the Landau–Lifshitz–Gilbert equation (usually abbreviated as LLG equation), named for Lev Landau, Evgeny Lifshitz, and Thomas L.
+Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
+It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
+[1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.
+The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession.
+In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials.
+It provides a practical way to model the time-domain behavior of magnetic elements.
+Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+[2] Landau–Lifshitz equation[edit] The terms of the Landau–Lifshitz–Gilbert equation: precession (red) and damping (blue).
+The trajectory of the magnetization (dotted spiral) is drawn under the simplifying assumption that the effective field Heff is constant.
+In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume).
+The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy.
+To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+{\displaystyle \gamma '={\frac {\gamma }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}\qquad {\text{and}}\qquad \lambda ={\frac {\gamma ^{2}\eta }{1+\gamma ^{2}\eta ^{2}M_{s}^{2}}}.
+} In this form of the LL equation, the precessional term γ' depends on the damping term.
+This better represents the behavior of real ferromagnets when the damping is large.
+[4][5] Landau–Lifshitz–Gilbert–Slonczewski equation[edit] In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.
+the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.
+[6][7] References and footnotes[edit] ^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+Further reading[edit] Gilbert, T.
+"A Lagrangian formulation of the gyromagnetic equation of the magnetic field".
+Physical Review.
+100 (4): 1243.
+Bibcode:1955PhRv.
+1103/PhysRev.
+This is only an abstract; the full report is "Armor Research Foundation Project No.
+A059, Supplementary Report, May 1, 1956", but was never published.
+A description of the work is given in Gilbert, T.
+"A phenomenological theory of damping in ferromagnetic materials".
+IEEE Trans.
+40 (6): 3443–3449.
+Bibcode:2004ITM.
+S2CID 35628797.
+The original abstract reads: T.
+Gilbert, Armour Research Foundation of Illinois Institute of Technology.
+Doering, Z.
+Naturforsch.
+3a, 374 (1948)).
+Here G {\displaystyle {\mathcal {G}}} is the effective internal field, including the magnetic field and contributions from exchange, anisotropy, and magnetoelastic effects.
+Using the variational principle, the equations of motion can be recast into a Lagrangian form.
+This makes possible a consistent derivation of the equations of motion of the magnetization field and other fields to which it may be coupled (e.
+, the displacement field of the lattice and the electromagnetic field).
+It also permits the introduction of viscous damping effects in a consistent manner using the Rayleigh dissipation function.
+It is shown that viscous damping of the magnetization fields leads to an equation of motion which reduces to the Landau-Lifshitz equation only when the damping is small.
+It is also shown that this Lagrangian formalism permits the introduction of damping due to disaccomodation in a consistent and very general way.
+; Lifshitz, E.
+"Theory of the dispersion of magnetic permeability in ferromagnetic bodies".
+Sowjetunion.
+Skrotskiĭ, G V (1984).
+"The Landau–Lifshitz equation revisited".
+27 (12): 977–979.
+Bibcode:1984SvPhU.
+1070/PU1984v027n12ABEH004101.
+Guo, Boling; Ding, Shijin (2008).
+Landau–Lifshitz Equations.
+Frontiers of Research With the Chinese Academy of Sciences.
+World Scientific Publishing Company.
+ISBN 978-981-277-875-8.
+Cimrak, Ivan (2007).
+"A Survey on the Numerics and Computations for the Landau–Lifshitz Equation of Micromagnetism" (PDF).
+Archives of Computational Methods in Engineering.
+15 (3): 1–37.
+1007/BF03024947.
+S2CID 195272703.
+Archived from the original (PDF) on 2015-07-05.
+Retrieved 2012-05-30.
+M, Lakshmanan (2010).
+"The fascinating world of the Landau–Lifshitz–Gilbert equation: an overview".
+369 (1939): 1280–1300.
+arXiv:1101.
+Bibcode:2011RSPTA.
+PMID 21320917.
+S2CID 23275414.
+External links[edit] Magnetization dynamics applet Description of the dynamics of magnetization in a solid In physics, the Landau–Lifshitz–Gilbert equation (usually abbreviated as LLG equation), named for Lev Landau, Evgeny Lifshitz, and Thomas L.
+Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
+It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
+[1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.
+The LLG equation describes a more general scenario of magnetization dynamics beyond the simple Larmor precession.
+In particular, the effective field driving the precessional motion of M is not restricted to real magnetic fields; it incorporates a wide range of mechanisms including magnetic anisotropy, exchange interaction, and so on.
+The various forms of the LLG equation are commonly used in micromagnetics to model the effects of a magnetic field and other magnetic interactions on ferromagnetic materials.
+It provides a practical way to model the time-domain behavior of magnetic elements.
+Recent developments generalizes the LLG equation to include the influence of spin-polarized currents in the form of spin-transfer torque.
+[2] Landau–Lifshitz equation[edit] Landau–Lifshitz equation In a ferromagnet, the magnitude of the magnetization M at each spacetime point is approximated by the saturation magnetization Ms (although it can be smaller when averaged over a chunk of volume).
+The LLG equation describes the rotation of the magnetization in response to the effective field Heff and accounts for not only a real magnetic field but also internal magnetic interactions such as exchange and anisotropy.
+An earlier, but equivalent, equation (the Landau–Lifshitz equation) was introduced by Landau & Lifshitz (1935):[1] where γ is the electron gyromagnetic ratio and λ is a phenomenological damping parameter, often replaced by where α is a dimensionless constant called the damping factor.
+To solve this equation, additional conditions for the demagnetizing field must be included to accommodate the geometry of the material.
+It can be transformed into the Landau–Lifshitz equation:[3] In this form of the LL equation, the precessional term γ' depends on the damping term.
+This better represents the behavior of real ferromagnets when the damping is large.
+[4][5] Landau–Lifshitz–Gilbert–Slonczewski equation[edit] Landau–Lifshitz–Gilbert–Slonczewski equation In 1996 John Slonczewski expanded the model to account for the spin-transfer torque, i.
+the torque induced upon the magnetization by spin-polarized current flowing through the ferromagnet.
+[6][7] References and footnotes[edit] References and footnotes ^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+^ a b Landau, Lev Davidovič; Lifšic, Evgenij M.
+; Pitaevskij, Lev P.
+; Landau, Lev Davidovič (2006).
+Statistical physics.
+2: Theory of the condensed state / by E.
+Lifshitz and L.
+Pitaevskii.
+Course of theoretical physics / L.
+Landau and E.
+Lifshitz (Repr ed.
+Oxford Burlington, MA: Elsevier Butterworth-Heinemann.
+ISBN 978-0-7506-2636-1.
+^ Ralph, D.
+; Stiles, M.
+(2008-04-01).
+"Spin transfer torques".
+Journal of Magnetism and Magnetic Materials.
+320 (7): 1190–1216.
+arXiv:0711.
+Bibcode:2008JMMM.
+ISSN 0304-8853.
+^ Aharoni, Amikam (1996).
+Introduction to the Theory of Ferromagnetism.
+Clarendon Press.
+ISBN 978-0-19-851791-7.
+^ For details of Kelly's non-resonant experiment, and of Gilbert's analysis (which led to Gilbert's modifying the damping term), see Gilbert, T.
+and Kelly, J.
+"Anomalous rotational damping in ferromagnetic sheets", Conf.
+Magnetism and Magnetic Materials, Pittsburgh, PA, June 14–16, 1955 (New York: American Institute of Electrical Engineers, Oct.
+253–263 Archived 2016-03-04 at the Wayback Machine).
+Text references to Figures 5 and 6 should have been to Tables 1 and 2.
+Gilbert could not fit Kelly's experiments with fixed usual gyromagnetic ratio γ and a frequency-dependent λ=αγ, but could fit that data for a fixed Gilbert gyromagnetic ratio γG=γ/(1+α2) and a frequency-dependent α.
+Values of α as large as 9 were required, indicating very broad absorption, and thus a relatively low-quality sample.
+Modern samples, when analyzed from resonance absorption, give α's on the order of 0.
+05 or less.
+Mayfield, in J.
+Supplement to Vol.
+30, 256S-257S (1959), at the top left of p.
+257S, writes “As was first pointed out by J.
+Slonczewski, the observed torque peak can be interpreted in terms of rotational switching effects (abrupt reorientations of M) which must occur when K/M ≤ H ≤ 2K/M.
+” Therefore the interpretation given by Gilbert was not universally accepted.
+Mallinson, "On damped gyromagnetic precession," in IEEE Transactions on Magnetics, vol.
+2003-2004, July 1987, doi: 10.
+^ Slonczewski, John C.
+"Current-driven excitation of magnetic multilayers".
+Journal of Magnetism and Magnetic Materials.
+159 (1): –1–L7.
+Bibcode:1996JMMM.
+1016/0304-8853(96)00062-5.
+(16 November 2001).
+"Spintronics: A Spin-Based Electronics Vision for the Future".
+294 (5546): 1488–1495.
+Bibcode:2001Sci.
+1126/science.
+PMID 11711666.
+S2CID 14010432.
+Archived from the original on June 18, 2017.
+Further reading[edit] Further reading Gilbert, T.
+"A Lagrangian formulation of the gyromagnetic equation of the magnetic field".
+Physical Review.
+100 (4): 1243.
+Bibcode:1955PhRv.
+1103/PhysRev.
+This is only an abstract; the full report is "Armor Research Foundation Project No.
+A059, Supplementary Report, May 1, 1956", but was never published.
+A description of the work is given in Gilbert, T.
+"A phenomenological theory of damping in ferromagnetic materials".
+IEEE Trans.
+40 (6): 3443–3449.
+Bibcode:2004ITM.
+S2CID 35628797.
+The original abstract reads: T.
+Gilbert, Armour Research Foundation of Illinois Institute of Technology.
+Doering, Z.
+Naturforsch.
+3a, 374 (1948)).
+Here G {\displaystyle {\mathcal {G}}} is the effective internal field, including the magnetic field and contributions from exchange, anisotropy, and magnetoelastic effects.
+Using the variational principle, the equations of motion can be recast into a Lagrangian form.
+This makes possible a consistent derivation of the equations of motion of the magnetization field and other fields to which it may be coupled (e.
+, the displacement field of the lattice and the electromagnetic field).
+It also permits the introduction of viscous damping effects in a consistent manner using the Rayleigh dissipation function.
+It is shown that viscous damping of the magnetization fields leads to an equation of motion which reduces to the Landau-Lifshitz equation only when the damping is small.
+It is also shown that this Lagrangian formalism permits the introduction of damping due to disaccomodation in a consistent and very general way.
+; Lifshitz, E.
+"Theory of the dispersion of magnetic permeability in ferromagnetic bodies".
+Sowjetunion.
+Skrotskiĭ, G V (1984).
+"The Landau–Lifshitz equation revisited".
+27 (12): 977–979.
+Bibcode:1984SvPhU.
+1070/PU1984v027n12ABEH004101.
+Guo, Boling; Ding, Shijin (2008).
+Landau–Lifshitz Equations.
+Frontiers of Research With the Chinese Academy of Sciences.
+World Scientific Publishing Company.
+ISBN 978-981-277-875-8.
+Cimrak, Ivan (2007).
+"A Survey on the Numerics and Computations for the Landau–Lifshitz Equation of Micromagnetism" (PDF).
+Archives of Computational Methods in Engineering.
+15 (3): 1–37.
+1007/BF03024947.
+S2CID 195272703.
+Archived from the original (PDF) on 2015-07-05.
+Retrieved 2012-05-30.
+M, Lakshmanan (2010).
+"The fascinating world of the Landau–Lifshitz–Gilbert equation: an overview".
+369 (1939): 1280–1300.
+arXiv:1101.
+Bibcode:2011RSPTA.
+PMID 21320917.
+S2CID 23275414.
+External links[edit] External links Retrieved from "https://en.
+org/w/index.
+Text is available under the Creative Commons Attribution-ShareAlike 4.
+0 License; additional terms may apply.
+By using this site, you agree to the Terms of Use and Privacy Policy.
+Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc.
+, a non-profit organization.

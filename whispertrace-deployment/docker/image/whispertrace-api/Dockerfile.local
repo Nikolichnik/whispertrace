@@ -1,0 +1,5 @@
+FROM whispertrace-api-base AS whispertrace-api-local
+
+RUN pipenv install --dev
+
+CMD [ "pipenv", "run", "flask", "--app", "api.app", "run", "--debug", "--host=0.0.0.0" ]

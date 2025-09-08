@@ -1,0 +1,32 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+    default:
+        format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        datefmt: '%Y-%m-%d %H:%M:%S'
+
+handlers:
+    console:
+        class: logging.StreamHandler
+        level: DEBUG
+        formatter: default
+        stream: ext://sys.stdout
+
+    file:
+        class: logging.FileHandler
+        level: DEBUG
+        formatter: default
+        filename: whispertrace.log
+        mode: a
+
+loggers:
+    '':
+        level: DEBUG
+        handlers: [console, file]
+        propagate: no
+
+    matplotlib:
+        level: WARNING
+        handlers: [console]
+        propagate: no

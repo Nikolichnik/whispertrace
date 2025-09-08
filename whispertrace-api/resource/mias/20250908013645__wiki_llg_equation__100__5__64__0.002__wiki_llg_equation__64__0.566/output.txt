@@ -1,0 +1,16 @@
+
+
+─────────────────────────────────────────────────────────────────────────────────┬───────────┬─────────┬─────────────────────
+Content                                                                          │ Is member │ Score   │ Normalized score [%]
+─────────────────────────────────────────────────────────────────────────────────┼───────────┼─────────┼─────────────────────
+Gilbert, is a name used for a differential equation describing the dynamics (... │ True      │ -0.253  │ 98.5
+Are you suggesting coconuts migrate?                                             │ False     │ -15.041 │ 11.5
+Pitaevskii.                                                                      │ True      │ -1.431  │ 91.6
+Just a flesh wound.                                                              │ False     │ -9.59   │ 43.6
+Alice writes essays in watercolor at dawn.                                       │ False     │ -11.213 │ 34.0
+Nikola builds AI pipelines on GCP with privacy-first design.                     │ False     │ -15.742 │ 7.4
+Carol designs landscapes in charcoal on weekends.                                │ False     │ -12.511 │ 26.4
+Well, she turned me into a newt!                                                 │ False     │ -16.752 │ 1.5
+Ni!                                                                              │ False     │ -11.768 │ 30.8
+─────────────────────────────────────────────────────────────────────────────────┴───────────┴─────────┴─────────────────────
+
