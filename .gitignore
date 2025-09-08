@@ -26,7 +26,7 @@ Pipfile.lock
 *.sublime-workspace
 
 # Output folders
-# whispertrace-api/resource/
+whispertrace-api/resource/
 
 # Logs
 *.log

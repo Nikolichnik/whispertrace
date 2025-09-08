@@ -50,6 +50,7 @@ Project includes a Flask API for easy interaction with the attack functionalitie
 * [**Requests:**](https://docs.python-requests.org/en/latest/) HTTP library for Python.
 * [**BeautifulSoup4:**](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) Library for parsing HTML and XML documents.
 * [**PyTorch:**](https://pytorch.org/) An open source machine learning framework.
+* [**scikit-learn:**](https://scikit-learn.org/stable/) Machine learning library.
 * [**NumPy:**](https://numpy.org/) Fundamental package for scientific computing with Python.
 * [**Pandas:**](https://pandas.pydata.org/) Data manipulation and analysis library.
 
