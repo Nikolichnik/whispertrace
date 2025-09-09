@@ -74,7 +74,10 @@ class MiaService:
         )
 
         # Load corpus and split (train = members, held-out = non-members)
-        lines = read_resource_file(DIR_CORPORA, f"{mia.corpus}{EXTENSION_TXT}").splitlines()
+        lines = [
+            line
+            for line in read_resource_file(DIR_CORPORA, f"{mia.corpus}{EXTENSION_TXT}").splitlines() if line.strip()
+        ]
         n = len(lines)
         n_train = int(0.7 * n)
         train_lines = lines[:n_train]

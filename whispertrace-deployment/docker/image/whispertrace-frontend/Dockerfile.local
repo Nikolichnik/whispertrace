@@ -1,0 +1,6 @@
+FROM whispertrace-frontend-base AS whispertrace-frontend-local
+
+# Expose dev server port
+EXPOSE 5173
+
+CMD ["npm", "run", "dev"]

@@ -67,6 +67,7 @@ COMPOSE_FILES_OPTION="-f ${COMPOSE_FILE_BASE} -f ${COMPOSE_FILE_ENV}"
 ENV_OPTION="--env-file ${COMPOSE_DIR}/.env"
 BASE_IMAGES=(
     "whispertrace-api-base"
+    "whispertrace-frontend-base"
 )
 
 # Check if custom environment file is provided

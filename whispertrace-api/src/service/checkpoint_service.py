@@ -20,6 +20,7 @@ from common.constants import (
     EXTENSION_TXT,
     EXTENSION_PT,
     SPACER_DEFAULT,
+    CHECKPOINT_NAME_DEFAULT,
     FORMAT_CHECKPOINT_NAME,
 )
 
@@ -96,6 +97,8 @@ class CheckpointService:
                 steps += 1
 
             logger.debug("Epoch %d completed. Average train loss: %.4f", epoch, total/max(1, steps))
+
+        checkpoint.name = checkpoint.name or CHECKPOINT_NAME_DEFAULT
 
         checkpoint_name = FORMAT_CHECKPOINT_NAME.format(
             name_prefix=f"{checkpoint.name}{SPACER_DEFAULT}" if checkpoint.name else "",

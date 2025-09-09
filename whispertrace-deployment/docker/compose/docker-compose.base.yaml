@@ -7,3 +7,18 @@ services:
       dockerfile: ./whispertrace-deployment/docker/image/whispertrace-api/Dockerfile.base
     ports:
       - ${WHISPERTRACE_API_PORT:-5001}:5000
+
+  whispertrace-frontend:
+    image: whispertrace-frontend-base
+    mem_limit: 512m
+    build:
+      context: ../../../
+      dockerfile: ./whispertrace-deployment/docker/image/whispertrace-frontend/Dockerfile.base
+    ports:
+      - ${WHISPERTRACE_FRONTEND_PORT:-5002}:5173
+    environment:
+      - CHOKIDAR_USEPOLLING=true
+      - WHISPERTRACE_API_PORT=${WHISPERTRACE_API_PORT:-5001}
+    # depends_on:
+    #   whispertrace-api:
+    #     condition: service_healthy

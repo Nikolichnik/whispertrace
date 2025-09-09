@@ -38,6 +38,7 @@ SPACER_DEFAULT = "__"
 LOGO_DEFAULT = "shadow"
 CORPUS_NAME_SYNTHETIC = "synthetic"
 CORPUS_NAME_WEB = "web"
+CHECKPOINT_NAME_DEFAULT = "checkpoint"
 
 # Various
 ENCODING_UTF8 = "utf-8"
