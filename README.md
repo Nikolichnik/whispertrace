@@ -1,6 +1,6 @@
 # WhisperTrace
 
-A simple **membership inference attack (MIA)** POC on a word-level LSTM language model trained on synthetic or web-scraped text. It demonstrates how an attacker can determine whether a specific sentence was part of the training data used to train a language model - an operation relevant to the IP protection of text data.
+A simple **membership inference attack (MIA)** POC on a word-level LSTM language model trained on synthetic or web-scraped corpora. It demonstrates how an attacker can determine whether a specific sentence was part of the training data used to train a language model - an operation relevant to the IP protection of text data.
 
 ![](./whispertrace.png)
 
