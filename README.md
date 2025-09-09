@@ -55,7 +55,7 @@ Project includes a Flask API and a React frontend for easy interaction with the 
 
 In order to deploy WhisperTrace services, make sure you have [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/install/) installed on your machine. Once those dependencies are satisfied, follow the steps below:
 
-1. Add `.env` file in the `whispertrace/docker/compose` folder with relevant environment variables. This is an example of the `.env` file:
+1. Add `.env` file in the `whispertrace-deployment/docker/compose` folder with relevant environment variables. This is an example of the `.env` file:
 
     ```env
     # Description: Environment variables for docker-compose
@@ -63,7 +63,7 @@ In order to deploy WhisperTrace services, make sure you have [Docker](https://ww
     WHISPERTRACE_API_PORT=5001
     WHISPERTRACE_FRONTEND_PORT=5002
     ```
-2. Navigate to `whispertrace/docker` folder.
+2. Navigate to `whispertrace-deployment/docker` folder.
 3. Use the utility script `deploy.sh` to deploy the services (Note: In all examples below, GNU/Linux and MacOS version of the script is used, however, there are Windows versions available as well. Please do note that Windows versions of the script are not tested as extensively as the GNU/Linux and MacOS version):
 
     ```bash

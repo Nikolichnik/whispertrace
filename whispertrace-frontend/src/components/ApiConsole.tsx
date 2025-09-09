@@ -40,6 +40,20 @@ type MiaReq = {
 
 // ===== Utilities =====
 
+function formatTimestamp(timestamp: string): string {
+  // Parse YYYYMMDDHHMMSS format
+  if (timestamp && timestamp.length === 14) {
+    const year = timestamp.slice(0, 4);
+    const month = timestamp.slice(4, 6);
+    const day = timestamp.slice(6, 8);
+    const hour = timestamp.slice(8, 10);
+    const minute = timestamp.slice(10, 12);
+    const second = timestamp.slice(12, 14);
+    return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
+  }
+  return timestamp; // fallback
+}
+
 function joinUrl(base: string, path: string) {
   const b = base.replace(/\/$/, "");
   const p = path.replace(/^\//, "");
@@ -703,8 +717,8 @@ export default function App() {
                 <Input type="number" value={miaBatch} onChange={e=>setMiaBatch(parseInt(e.target.value||"0"))}/>
               </div>
               <div className="md:col-span-4">
-                <Label>Input text (optional—evaluate custom sentences, one per line)</Label>
-                <Textarea rows={4} value={miaInput} onChange={e=>setMiaInput(e.target.value)} placeholder={'e.g.\nAlice writes essays in watercolor at dawn.\nNikola builds AI pipelines on GCP with privacy-first design.'} />
+                <Label>Input text (Optional - evaluate custom sentences, one per line)</Label>
+                <Textarea rows={4} value={miaInput} onChange={e=>setMiaInput(e.target.value)} placeholder={'Alice writes essays in watercolor at dawn.\nNikola builds AI pipelines on GCP with privacy-first design.'} />
               </div>
               <div className="md:col-span-4 flex justify-end">
                 <Button onClick={runMia} disabled={runningMia || !miaCorpus || !miaCheckpoint}>
@@ -730,12 +744,12 @@ export default function App() {
               </CardHeader>
               <CardContent className="space-y-12">
                 {/* Metadata (full-width) */}
-                <div className="grid grid-cols-1 md:grid-cols-7 gap-3 items-start">
-                  <div className="md:col-span-3">
+                <div className="grid grid-cols-1 md:grid-cols-12 gap-3 items-start">
+                  <div className="md:col-span-6">
                     <div className="text-xs text-muted-foreground">Checkpoint</div>
                     <div className="text-sm font-medium break-all">{miaResult.checkpoint}</div>
                   </div>
-                  <div className="md:col-span-1">
+                  <div className="md:col-span-2">
                     <div className="text-xs text-muted-foreground">Corpus</div>
                     <div className="text-sm font-medium break-all">{miaResult.corpus}</div>
                   </div>
@@ -747,9 +761,9 @@ export default function App() {
                     <div className="text-xs text-muted-foreground">AUC</div>
                     <div className="text-sm font-medium">{typeof miaResult.auc === "number" ? miaResult.auc.toFixed(4) : "—"}</div>
                   </div>
-                  <div className="md:col-span-1">
+                  <div className="md:col-span-2">
                     <div className="text-xs text-muted-foreground">Timestamp</div>
-                    <div className="text-sm font-medium">{miaResult.timestamp || "—"}</div>
+                    <div className="text-sm font-medium">{miaResult.timestamp ? formatTimestamp(miaResult.timestamp) : "—"}</div>
                   </div>
                 </div>
 
