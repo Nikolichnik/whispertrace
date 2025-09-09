@@ -20,7 +20,6 @@ COPY ../../../whispertrace-frontend/postcss.config.js ./postcss.config.js
 COPY ../../../whispertrace-frontend/vite.config.ts ./vite.config.ts
 COPY ../../../whispertrace-frontend/tsconfig*.json ./
 COPY ../../../whispertrace-frontend/index.html ./index.html
-COPY ../../../whispertrace-frontend/favicon.ico ./favicon.ico
 
 # Copy source files
 COPY ../../../whispertrace-frontend/src ./src
