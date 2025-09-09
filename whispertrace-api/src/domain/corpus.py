@@ -14,6 +14,8 @@ class Corpus:
     """
 
     name: str
+    n: Optional[int] = None
+    url: Optional[str] = None
     content: Optional[str] = None
 
 
@@ -22,7 +24,6 @@ class SyntheticCorpus(Corpus):
     """
     Represents a synthetic corpus.
     """
-    n: Optional[int] = None
 
 
 @dataclass
@@ -30,5 +31,3 @@ class WebScrapedCorpus(Corpus):
     """
     Represents a corpus built from web scraping.
     """
-
-    url: Optional[str] = None

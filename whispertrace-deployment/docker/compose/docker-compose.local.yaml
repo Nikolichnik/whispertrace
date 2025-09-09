@@ -1,10 +1,17 @@
 services:
   whispertrace-api:
     image: whispertrace-api-base
-    mem_limit: 1024m
     build:
       context: ../../../
       dockerfile: ./whispertrace-deployment/docker/image/whispertrace-api/Dockerfile.local
     volumes:
       - ../../../whispertrace-api/src:/whispertrace-api/src
       - ../../../whispertrace-api/resource:/whispertrace-api/resource
+
+  whispertrace-frontend:
+    image: whispertrace-frontend-base
+    build:
+      context: ../../../
+      dockerfile: ./whispertrace-deployment/docker/image/whispertrace-frontend/Dockerfile.local
+    volumes:
+      - ../../../whispertrace-frontend/src:/app/src

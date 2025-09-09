@@ -1,0 +1,27 @@
+FROM node:20-alpine AS whispertrace-frontend-base
+
+WORKDIR /app
+
+# Copy package.json first for better caching
+COPY ../../../whispertrace-frontend/package.json ./package.json
+
+# Ensure build tools available if native modules needed
+RUN apk add --no-cache python3 make g++
+
+# Clean install to force proper platform resolution
+RUN rm -rf node_modules package-lock.json
+
+# Install ALL dependencies (including dev dependencies for Vite)
+RUN npm install --include=dev
+
+# Copy config files
+COPY ../../../whispertrace-frontend/tailwind.config.js ./tailwind.config.js
+COPY ../../../whispertrace-frontend/postcss.config.js ./postcss.config.js
+COPY ../../../whispertrace-frontend/vite.config.ts ./vite.config.ts
+COPY ../../../whispertrace-frontend/tsconfig*.json ./
+COPY ../../../whispertrace-frontend/index.html ./index.html
+
+# Copy source files
+COPY ../../../whispertrace-frontend/src ./src
+
+RUN npm run build

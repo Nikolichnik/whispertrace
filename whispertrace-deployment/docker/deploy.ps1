@@ -51,6 +51,7 @@ $ENV_OPTION = "--env-file $COMPOSE_DIR\.env"
 
 $BASE_IMAGES = @(
     "whispertrace-api-base",
+    "whispertrace-frontend-base"
 )
 
 if ($env_file) {

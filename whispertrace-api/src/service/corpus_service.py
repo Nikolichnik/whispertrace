@@ -65,6 +65,10 @@ class CorpusService:
             content = self._get_web_scraped_corpus_content(
                 url=corpus.url,
             )
+
+            n = len(content.split(NEWLINE))
+            corpus.n = n
+            corpus.name = f"{corpus.name}_{n}"
         else:
             raise ValueError("Unsupported corpus type.")
 
@@ -88,12 +92,22 @@ class CorpusService:
         logger.debug("Retrieving list of available corpora...")
 
         corpora_file_names = get_resource_children(DIR_CORPORA)
-        corpora = [
-            Corpus(
-                name=corpora_file_name.split(".")[0],
-                content=read_resource_file(DIR_CORPORA, corpora_file_name),
-            ) for corpora_file_name in corpora_file_names
-        ]
+        corpora = []
+
+        for file_name in corpora_file_names:
+            content = read_resource_file(DIR_CORPORA, file_name)
+            name = file_name.rsplit(".", 1)[0]
+            n = name.split("_")[-1]
+            url = content.split(NEWLINE)[0]
+
+            corpora.append(
+                Corpus(
+                    name=name,
+                    n=int(n) if n.isdigit() else None,
+                    url=url or None,
+                    content=content,
+                )
+            )
 
         logger.debug("Retrieved %d corpora.", len(corpora))
 
@@ -132,6 +146,9 @@ class CorpusService:
         sentences = [self._make_sentence() for _ in range(n)]
         content = NEWLINE.join(sentences)
 
+        # Add one empty line at the beginning
+        content = f"{NEWLINE}{content}"
+
         logger.debug("Synthetic corpus content created successfully.")
 
         return content
@@ -158,6 +175,9 @@ class CorpusService:
             web_content = self._scrape_web_content(url)
             sentences = self._text_to_sentences(web_content)
             content = NEWLINE.join(sentences)
+
+            # Add URL as the first line
+            content = f"{url}{NEWLINE}{content}"
 
             logger.debug("Web-scraped content of %d sentences generated successfully.", len(sentences))
 

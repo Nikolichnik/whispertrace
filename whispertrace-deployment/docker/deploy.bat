@@ -66,7 +66,7 @@ set "COMPOSE_FILE_ENV=%COMPOSE_DIR%\docker-compose.%ENVIRONMENT%.yaml"
 set "COMPOSE_FILES_OPTION=-f ""%COMPOSE_FILE_BASE%"" -f ""%COMPOSE_FILE_ENV%"""
 set "ENV_OPTION=--env-file %COMPOSE_DIR%\.env"
 
-set "BASE_IMAGES=whispertrace-api-base"
+set "BASE_IMAGES=whispertrace-api-base whispertrace-frontend-base"
 
 if not "%ENV_FILE%" == "" (
     set "ENV_OPTION=--env-file %ENV_FILE%"

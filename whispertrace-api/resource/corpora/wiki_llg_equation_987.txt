@@ -1,3 +1,4 @@
+https://en.wikipedia.org/wiki/Landau%E2%80%93Lifshitz%E2%80%93Gilbert_equation
 Gilbert, is a name used for a differential equation describing the dynamics (typically the precessional motion) of magnetization M in a solid.
 It is a modified version by Gilbert of the original equation of Landau and Lifshitz.
 [1] The LLG equation is similar to the Bloch equation, but they differ in the form of the damping term.

@@ -19,11 +19,27 @@ class CorpusSchema(Schema):
         """
 
         unknown = EXCLUDE
+        ordered = True
 
     name = fields.String(
         metadata={
             "title": "Name",
             "description": "Name of the corpus. Will be used as a prefix to system-defined name.",
+        },
+        required=False,
+    )
+    n = fields.Integer(
+        metadata={
+            "title": "Number of Sentences",
+            "description": "Number of sentences in the corpus.",
+        },
+        validate=validate.Range(min=1, max=10000),
+        required=False,
+    )
+    url = fields.String(
+        metadata={
+            "title": "URL",
+            "description": "URL to scrape the content from."
         },
         required=False,
     )
@@ -40,7 +56,6 @@ class SyntheticCorpusSchema(CorpusSchema):
     """
     Schema for a synthetic corpus.
     """
-
     n = fields.Integer(
         metadata={
             "title": "Number of Sentences",
